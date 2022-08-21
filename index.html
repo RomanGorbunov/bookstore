@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__first-line">
+            <div class="header__tel">
+              <a class="header__tel-link" href="tel:+918374902234"
+                ><span class="header__tel-link-num">+91 8374902234</span>
+                <img class:="header__tel-img" src="img/icon_tel.svg" alt="tel"
+                />
+              </a>
+            </div>
+            <div class="header__social">
+              <a class="header__social-link" href="#">
+                <img
+                  class="header__social-img"
+                  src="img/facebook.svg"
+                  alt="facebook"
+                />
+              </a>
+              <a class="header__social-link" href="#">
+                <img
+                  class="header__social-img"
+                  src="img/instagram.svg"
+                  alt="instagram"
+                />
+              </a>
+              <a class="header__social-link" href="#">
+                <img class="header__social-img" src="img/in.svg" alt="in" />
+              </a>
+              <a class="header__social-link" href="#">
+                <img
+                  class="header__social-img"
+                  src="img/twitter.svg"
+                  alt="twitter"
+                />
+              </a>
+              <a class="header__social-link" href="#">
+                <img class="header__social-img" src="img/b.svg" alt="b" />
+              </a>
+            </div>
+          </div>
+          <nav class="header__second">
+            <span class="header__circle"></span>
+            <div class="header__search">
+              <input
+                class="header__search-form"
+                type="search"
+                placeholder="Search books..."
+              />
+              <a class="header__search-picture" href="#">
+                <img
+                  class="header__search-img"
+                  src="img/search_icon.svg"
+                  alt="search"
+                />
+              </a>
+            </div>
+            <nav class="menu-personality">
+              <a class="menu-personality__link" href="#">
+                <span class="menu-personality__name">Account</span>
+                <img
+                  class="menu-personality__link-img"
+                  src="img/account_icon.svg"
+                  alt="acc"
+                />
+              </a>
+              <a class="menu-personality__link" href="#">
+                <span class="menu-personality__name">Cart:(0$)</span>
+                <img
+                  class="menu-personality__link-img"
+                  src="img/cart_icon.svg"
+                  alt="cart"
+                />
+              </a>
+              <a class="menu-personality__link" href="#">
+                <span class="menu-personality__name Wishlist">Wishlist</span>
+                <img
+                  class="menu-personality__link-img"
+                  src="img/wish_icon.svg"
+                  alt="wish"
+                />
+              </a>
+            </nav>
+          </nav>
+        </div>
+        <hr class="line-above-menu" />
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu-item">
+              <a class="menu-text" href="#slick">HOME</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-text" href="#categories">ABOUT US</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-text " href="#ebook">BOOKS</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-text" href="#pricebook">NEW RELEASE</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-text" href="#subscriber">CONTACT US</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-text" href="#blogs">BLOG</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="slick" id="slick">
+      <div class="container">
+        <div class="slick__inner">
+          <div class="slick__item">
+            <h1 class="slick__title">ipsum dolor si</h1>
+            <p class="slick__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
+              feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus
+              ut magna velit eleifend. Amet, quis urna, a eu.
+            </p>
+            <a class="slick__btn" href="#"
+              >Read more
+              <img
+                class="slick__btn-img"
+                src="img/arrow_right.svg"
+                alt="right"
+              />
+            </a>
+          </div>
+          <div class="slick__slider">
+            <img class="lick__slider-img" src="img/slick1.jpg" alt="book1" />
+            <img class="lick__slider-img" src="img/slick2.jpg" alt="book2" />
+            <img class="lick__slider-img" src="img/slick3.jpg" alt="book3" />
+            <img class="lick__slider-img" src="img/slick4.jpg" alt="book4" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="categories" id="categories">
+      <details class="spoiler">
+        <summary class="spoiler__name">Categories</summary>
+        <div class="spoiler__inner-top">
+          <h2 class="spoiler__title">Explore our Top Categories</h2>
+          <p class="spoiler__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
+            feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus ut
+            magna velit eleifend. Amet, quis urna, a eu.Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum
+            ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat
+            amet, libero ipsum..
+          </p>
+        </div>
+        <ul class="spoiler__inner-bottom">
+          <li class="spoiler__inner-bottom-item">
+            <img
+              class="spoiler__inner-bottom-img"
+              src="img/Higher.jpg"
+              alt="image"
+            />
+            <h3 class="spoiler__inner-bottom-title">Higher Education</h3>
+            <p class="spoiler__inner-bottom-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
+              feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus
+              ut mat,
+            </p>
+          </li>
+          <li class="spoiler__inner-bottom-item">
+            <img
+              class="spoiler__inner-bottom-img"
+              src="img/manager.jpg"
+              alt="image"
+            />
+            <h3 class="spoiler__inner-bottom-title">Management Books</h3>
+            <p class="spoiler__inner-bottom-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
+              feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus
+              ut mat,
+            </p>
+          </li>
+          <li class="spoiler__inner-bottom-item">
+            <img
+              class="spoiler__inner-bottom-img"
+              src="img/engineering.jpg"
+              alt="image"
+            />
+            <h3 class="spoiler__inner-bottom-title">Engineering Books</h3>
+            <p class="spoiler__inner-bottom-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
+              feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus
+              ut mat,
+            </p>
+          </li>
+          <li class="spoiler__inner-bottom-item">
+            <img
+              class="spoiler__inner-bottom-img"
+              src="img/moment1.jpg"
+              alt="image"
+            />
+            <h3 class="spoiler__inner-bottom-title">
+              Reading books always makes the moments happy
+            </h3>
+            <p class="spoiler__inner-bottom-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
+              feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus
+              ut mat,
+            </p>
+          </li>
+          <li class="spoiler__inner-bottom-item">
+            <img
+              class="spoiler__inner-bottom-img"
+              src="img/moment2.jpg"
+              alt="image"
+            />
+            <h3 class="spoiler__inner-bottom-title">
+              Reading books always makes the moments happy
+            </h3>
+            <p class="spoiler__inner-bottom-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
+              feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus
+              ut mat,
+            </p>
+          </li>
+          <li class="spoiler__inner-bottom-item">
+            <img
+              class="spoiler__inner-bottom-img"
+              src="img/moment3.jpg"
+              alt="image"
+            />
+            <h3 class="spoiler__inner-bottom-title">
+              Reading books always makes the moments happy
+            </h3>
+            <p class="spoiler__inner-bottom-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
+              feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus
+              ut mat,
+            </p>
+          </li>
+        </ul>
+        <a class="spoiler__btn" href="#"
+          >View more
+          <img class="spoiler__btn-img" src="img/arrow_right.svg" alt="arrow" />
+        </a>
+      </details>
+    </section>
+    <section class="ebook" id="ebook">
+      <div class="container__ebook">
+        <details class="ebook__spoiler">
+          <summary class="ebook__spoiler-title">ebook</summary>
+          <div class="ebook__photo">
+            <img class="ebook__img" src="img/ebook-img.jpg" alt="Girl" />
+          </div>
+          <div class="ebook_column">
+            <h1 class="ebook__title">
+              Access, Read, Practice & Engage with Digital Content (eBook)
+            </h1>
+            <p class="ebook__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
+              feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus
+              ut magna velit eleifend. Amet, quis urna, a eu.Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit.
+            </p>
+            <div class="ebook__search">
+              <input
+                class="ebook__form"
+                type="text"
+                placeholder="Enter your email address"
+              />
+              <div class="ebook__btn">Login</div>
+            </div>
+          </div>
+        </details>
+      </div>
+    </section>
+    <section class="pricebook" id="pricebook">
+      <div class="pricebook__inner">
+        <h3 class="pricebook__text">Some quality items</h3>
+        <div class="pricebook__item">
+          <hr class="pricebook__title-line" />
+          <h1 class="pricebook__title">New Release Books</h1>
+          <hr class="pricebook__title-line" />
+        </div>
+        <div class="pricebook__slider">
+          <ul class="pricebook__slider-items">
+            <li class="pricebook__slider-books">
+              <img
+                class="pricebook__slider-books-img"
+                src="img/pricebook1.jpg"
+                alt="book"
+              />
+
+              <a class="pricebook__slider-books-btn" href="#"
+                ><span>add to cart</span></a
+              >
+              <h3 class="pricebook__slider-books-title">
+                Simple way of piece life
+              </h3>
+              <p class="pricebook__slider-books-subtitle">Armor Ramsey</p>
+              <p class="pricebook__slider-books-price">$ 40.00</p>
+            </li>
+            <li class="pricebook__slider-books">
+              <img
+                class="pricebook__slider-books-img"
+                src="img/pricebook2.jpg"
+                alt="book"
+              />
+              <a class="pricebook__slider-books-btn">add to cart</a>
+              <h3 class="pricebook__slider-books-title">
+                Great travel at desert
+              </h3>
+              <p class="pricebook__slider-books-subtitle">Sanchit Howdy</p>
+              <p class="pricebook__slider-books-price">$ 38.00</p>
+            </li>
+            <li class="pricebook__slider-books">
+              <img
+                class="pricebook__slider-books-img"
+                src="img/pricebook3.jpg"
+                alt="book"
+              />
+              <a class="pricebook__slider-books-btn">add to cart</a>
+              <h3 class="pricebook__slider-books-title">
+                The lady beauty Scarlett
+              </h3>
+              <p class="pricebook__slider-books-subtitle">Arthur Doyle</p>
+              <p class="pricebook__slider-books-price">$ 45.00</p>
+            </li>
+            <li class="pricebook__slider-books">
+              <img
+                class="pricebook__slider-books-img"
+                src="img/pricebook4.jpg"
+                alt="book"
+              />
+              <a class="pricebook__slider-books-btn">add to cart</a>
+              <h3 class="pricebook__slider-books-title">Once upon a time</h3>
+              <p class="pricebook__slider-books-subtitle">Klien Marry</p>
+              <p class="pricebook__slider-books-price">$ 35.00</p>
+            </li>
+            <li class="pricebook__slider-books">
+              <img
+                class="pricebook__slider-books-img"
+                src="img/pricebook1.jpg"
+                alt="book"
+              />
+              <a class="pricebook__slider-books-btn">add to cart</a>
+              <h3 class="pricebook__slider-books-title">
+                Simple way of piece life
+              </h3>
+              <p class="pricebook__slider-books-subtitle">Armor Ramsey</p>
+              <p class="pricebook__slider-books-price">$ 40.00</p>
+            </li>
+            <li class="pricebook__slider-books">
+              <img
+                class="pricebook__slider-books-img"
+                src="img/pricebook2.jpg"
+                alt="book"
+              />
+              <a class="pricebook__slider-books-btn">add to cart</a>
+              <h3 class="pricebook__slider-books-title">
+                Great travel at desert
+              </h3>
+              <p class="pricebook__slider-books-subtitle">Sanchit Howdy</p>
+              <p class="pricebook__slider-books-price">$ 38.00</p>
+            </li>
+            <li class="pricebook__slider-books">
+              <img
+                class="pricebook__slider-books-img"
+                src="img/pricebook3.jpg"
+                alt="book"
+              />
+              <a class="pricebook__slider-books-btn">add to cart</a>
+              <h3 class="pricebook__slider-books-title">
+                The lady beauty Scarlett
+              </h3>
+              <p class="pricebook__slider-books-subtitle">Arthur Doyle</p>
+              <p class="pricebook__slider-books-price">$ 45.00</p>
+            </li>
+            <li class="pricebook__slider-books">
+              <img
+                class="pricebook__slider-books-img"
+                src="img/pricebook4.jpg"
+                alt="book"
+              />
+              <a class="pricebook__slider-books-btn">add to cart</a>
+              <h3 class="pricebook__slider-books-title">Once upon a time</h3>
+              <p class="pricebook__slider-books-subtitle">Klien Marry</p>
+              <p class="pricebook__slider-books-price">$ 35.00</p>
+            </li>
+            <li class="pricebook__slider-books">
+              <img
+                class="pricebook__slider-books-img"
+                src="img/pricebook1.jpg"
+                alt="book"
+              />
+              <a class="pricebook__slider-books-btn">add to cart</a>
+              <h3 class="pricebook__slider-books-title">
+                Simple way of piece life
+              </h3>
+              <p class="pricebook__slider-books-subtitle">Armor Ramsey</p>
+              <p class="pricebook__slider-books-price">$ 40.00</p>
+            </li>
+            <li class="pricebook__slider-books">
+              <img
+                class="pricebook__slider-books-img"
+                src="img/pricebook2.jpg"
+                alt="book"
+              />
+              <a class="pricebook__slider-books-btn">add to cart</a>
+              <h3 class="pricebook__slider-books-title">
+                Great travel at desert
+              </h3>
+              <p class="pricebook__slider-books-subtitle">Sanchit Howdy</p>
+              <p class="pricebook__slider-books-price">$ 38.00</p>
+            </li>
+            <li class="pricebook__slider-books">
+              <img
+                class="pricebook__slider-books-img"
+                src="img/pricebook3.jpg"
+                alt="book"
+              />
+              <a class="pricebook__slider-books-btn">add to cart</a>
+              <h3 class="pricebook__slider-books-title">
+                The lady beauty Scarlett
+              </h3>
+              <p class="pricebook__slider-books-subtitle">Arthur Doyle</p>
+              <p class="pricebook__slider-books-price">$ 45.00</p>
+            </li>
+            <li class="pricebook__slider-books">
+              <img
+                class="pricebook__slider-books-img"
+                src="img/pricebook4.jpg"
+                alt="book"
+              />
+              <a class="pricebook__slider-books-btn">add to cart</a>
+              <h3 class="pricebook__slider-books-title">Once upon a time</h3>
+              <p class="pricebook__slider-books-subtitle">Klien Marry</p>
+              <p class="pricebook__slider-books-price">$ 35.00</p>
+            </li>
+            <li class="pricebook__slider-books">
+              <img
+                class="pricebook__slider-books-img"
+                src="img/pricebook1.jpg"
+                alt="book"
+              />
+              <a class="pricebook__slider-books-btn">add to cart</a>
+              <h3 class="pricebook__slider-books-title">
+                Simple way of piece life
+              </h3>
+              <p class="pricebook__slider-books-subtitle">Armor Ramsey</p>
+              <p class="pricebook__slider-books-price">$ 40.00</p>
+            </li>
+            <li class="pricebook__slider-books">
+              <img
+                class="pricebook__slider-books-img"
+                src="img/pricebook2.jpg"
+                alt="book"
+              />
+              <a class="pricebook__slider-books-btn">add to cart</a>
+              <h3 class="pricebook__slider-books-title">
+                Great travel at desert
+              </h3>
+              <p class="pricebook__slider-books-subtitle">Sanchit Howdy</p>
+              <p class="pricebook__slider-books-price">$ 38.00</p>
+            </li>
+            <li class="pricebook__slider-books">
+              <img
+                class="pricebook__slider-books-img"
+                src="img/pricebook3.jpg"
+                alt="book"
+              />
+              <a class="pricebook__slider-books-btn">add to cart</a>
+              <h3 class="pricebook__slider-books-title">
+                The lady beauty Scarlett
+              </h3>
+              <p class="pricebook__slider-books-subtitle">Arthur Doyle</p>
+              <p class="pricebook__slider-books-price">$ 45.00</p>
+            </li>
+            <li class="pricebook__slider-books">
+              <img
+                class="pricebook__slider-books-img"
+                src="img/pricebook4.jpg"
+                alt="book"
+              />
+              <a class="pricebook__slider-books-btn">add to cart</a>
+              <h3 class="pricebook__slider-books-title">Once upon a time</h3>
+              <p class="pricebook__slider-books-subtitle">Klien Marry</p>
+              <p class="pricebook__slider-books-price">$ 35.00</p>
+            </li>
+          </ul>
+          <hr />
+          <a href="" class="pricebook__slider-books-btn2"
+            >View all products
+            <img
+              class="pricebook__slider-books-arrow"
+              src="img/pricebooksarrow.svg"
+              alt="arrow"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="Featuredbook" id="Featuredbook">
+      <div class="container">
+        <div class="Featuredbook__inner">
+          <div class="Featuredbook__photos">
+            <img class="Featuredbook__img" src="img/Featured1.jpg" alt="book" />
+            <img
+              class="Featuredbook__img--white"
+              src="img/Featured2.svg"
+              alt="book"
+            />
+          </div>
+          <ul class="Featuredbook__items">
+            <li class="Featuredbook__item">
+              <h1 class="Featuredbook__header">Featured book</h1>
+              <hr />
+            </li>
+            <li class="Featuredbook__item">
+              <p class="Featurebook__subtitle">By Timbur Hood</p>
+            </li>
+            <li class="Featuredbook__item">
+              <h3 class="Featuredbook__title">Birds gonna be happy</h1>
+            </li>
+            <li class="Featuredbook__item">
+              <p class="Featurebook__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed<br> eu feugiat amet, libero ipsum enim pharetra hac.
+              </p>
+            </li>
+            <li class="Featuredbook__item">
+              <p class="Featurebook__price pricebook__slider-books-price">
+                $ 45.00
+              </p>
+            <li class="Featuredbook__item">
+              <a class="Featuredbook__btn spoiler__btn" href="#"
+            >View more
+            <img class="Featuredbook__btn-img spoiler__btn-img" src="img/arrow_right.svg" alt="arrow" />
+              </a>
+            </li>  
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="discount">
+      <div class="discount__container">
+        <ul class="discount__inner">
+          <li class="discount__items">
+            <h1 class=" discount__title">
+              All books are 50% off now! Don't miss such a deal!
+            </h1>
+          </li>
+          <li class="discount__items--text">
+            <p class="discount__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat amet, libero ipsum enim pharetra hac.
+            </p>
+          </li>
+          <li class="discount__items">
+            <div class=" discount__discount" id="discount__discount" >
+              <div class="discount__number">
+                <span class="days discount__time"></span>
+                <span class="discount__text-timer">Days</span>
+              </div>
+              <div class="discount__number">
+                <span class="hours discount__time"></span>
+                <span class="discount__text-timer">Hours</span>
+              </div>
+              <div class="discount__number">
+                <span class="minutes discount__time"></span>
+                <span class="discount__text-timer">Mint</span>
+              </div>
+              <div class="discount__number">
+                <span class="seconds discount__time"></span>
+                <span class="discount__text-timer">Sec</span>
+              </div>
+            </div>
+          </li>
+          <div class="discount__slider slick__slider">
+              <img class="discount__slider-img" src="https://picsum.photos/528/488/" alt="picsum">
+              <img class="discount__slider-img" src="https://picsum.photos/528/488/" alt="picsum">
+              <img class="discount__slider-img" src="https://picsum.photos/528/488/" alt="picsum">
+              <img class="discount__slider-img" src="https://picsum.photos/528/488/" alt="picsum">
+          </div>
+        </ul>
+      </div>
+    </section>
+<section class="subscriber" id="subscriber">
+  <div class="container">
+    <div class="subscriber__inner">
+      <h1 class=" subscriber__title">
+        Subscribe to our newsletter
+      </h1>
+      <div class="subcriber__column">
+        <p class="suscriber__text">
+          Sed eu feugiat amet, libero ipsum enim pharetra hac dolor sit amet, consectetur. Elit adipiscing enim pharetra hac.
+        </p>
+        <div class="subscriber__search">
+          <input
+            class="subscriber__form"
+            type="text"
+            placeholder="Enter your email address"
+          />
+          <div class="subscriber__btn">
+            <span>SEND</span>
+            <img class="subscriber__icon" src="img/subscribe_icon.svg" alt="twitter">
+          </div>
+        </div>
+        <hr/>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="blogs" id="blogs">
+  <div class="blogs__container">
+    <div class="blogs__inner">
+      <h1 class="blogs__title">
+        Read our many blogs
+      </h1>
+      <div class="blogs__table">
+        <div class="blogs__content">
+          <img class="blogs__content-img" src="img/content1.jpg" alt="content">
+          <button class="blogs__content-btn">Read more</button>
+        </div>
+        <div class="blogs__content">
+          <img class="blogs__content-img" src="img/content2.jpg" alt="content">
+          <button class="blogs__content-btn">Read more</button>
+        </div>
+        <div class="blogs__content">
+          <img class="blogs__content-img" src="img/content3.jpg" alt="content">
+          <button class="blogs__content-btn">Read more</button>
+        </div>
+        <div class="blogs__content">
+          <img class="blogs__content-img" src="img/content3.jpg" alt="content">
+          <button class="blogs__content-btn">Read more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+ <div class="container">
+  <div class="footer__inner">
+    <ul class="footer__social">
+      <li class="footer__item">
+        <img class="footer__img" src="img/footer_logo.svg" alt="logo" />
+      </li>
+      <li class="footer__item-txt">
+        <p class="footer__text">Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </li>
+      <li class="footer__social-media">
+        <a class="footer__social-media-link" href="#">
+          <img class="footer__social-media-img" src="img/footer_f.svg" alt="logo" />
+        </a>
+        <a class="footer__social-media-link" href="#">
+         <img class="footer__social-media-img" src="img/footer_in.svg" alt="logo" />
+        </a>
+        <a class="footer__social-media-link" href="#">
+          <img class="footer__social-media-img" src="img/footer_tw.svg" alt="logo" />
+        </a>
+        <a class="footer__social-media-link" href="#">
+          <img class="footer__social-media-img" src="img/footer_youtube.svg" alt="logo" />
+        </a>
+      </li> 
+      <li class="footer__social-conf">
+        <p class="footer__conf">© 2022 Arihant. All Rights Reserved.</p>
+      </li>
+    </ul>
+    <ul class="footer__company">
+     <li class="footer__company-item">
+      <h3 class="footer__company-title">Company</h3>
+     </li>
+     <a class="footer__company-menu" href="#home"><span>HOME</span></a>
+     <a class="footer__company-menu" href="#categories"><span>ABOUT US</span></a>
+     <a class="footer__company-menu" href="#Featuredbook"><span>BOOKS</span></a>
+     <a class="footer__company-menu" href="#ebook"><span>EBOOKS</span></a>
+     <a class="footer__company-menu" href="#pricebook"><span>NEW RELEASE</span></a>
+     <a class="footer__company-menu" href="#subscriber"><span>CONTACT US</span></a>
+     <a class="footer__company-menu" href="#blogs"><span>BLOG</span></a>
+    </ul>
+    <ul class="footer__news">
+      <li class="footer__news-item">
+        <h3 class="footer__news-title">Latest news</h3>
+      </li>
+      <li class="footer__news-blog">
+          <img class="footer__news-blog-img" src="img/footer_blog1.jpg" alt="blog" />   
+          <h3 class="footer__news-blog-title">Nostrud exercitation</h6>
+          <p class="footer__news-blog-text">Nostrud exercitation ullamco laboris nisi ut 
+            aliquip ex ea commodo consequat. </p>
+          <p class="footer__news-blog-date">15 April 2022</p>   
+      </li>
+      <li class="footer__news-blog">
+        <img class="footer__news-blog-img" src="img/footer_blog2.jpg" alt="blog" />
+        <h3 class="footer__news-blog-title">Nostrud exercitation</h6>
+        <p class="footer__news-blog-text">Nostrud exercitation ullamco laboris nisi ut 
+          aliquip ex ea commodo consequat. </p>
+        <p class="footer__news-blog-date">15 April 2022</p>   
+      </li>
+      <div class="footer__news-blog-footer">
+        <p class="footer__news-blog-footertext">Privacy</p>
+        <p class="footer__news-blog-footertexts">| Terms of Service</p>
+      </div>
+    </ul>
+  </div>
+ </div>
+</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
